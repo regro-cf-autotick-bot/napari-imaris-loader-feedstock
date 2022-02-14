@@ -1,5 +1,5 @@
 {% set name = "napari-imaris-loader" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-imaris-loader-{{ version }}.tar.gz
-  sha256: d7df5c137e8638ab2074666874c2c7e9b3654d4cc84164e881aa907baae161ee
+  sha256: b7b9cd0a4f88109af6b95d3328b1b383bca5f11aac351b297519e40f63d0beba
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - dask-core
     - h5py
-    - imaris-ims-file-reader
+    - imaris-ims-file-reader >=0.1.5
     - napari
     - napari-plugin-engine >=0.1.4
     - numpy
