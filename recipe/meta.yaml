@@ -22,7 +22,7 @@ requirements:
   run:
     - dask-core
     - h5py
-    - imaris-ims-file-reader
+    - imaris-ims-file-reader >=0.1.5
     - napari
     - napari-plugin-engine >=0.1.4
     - numpy
