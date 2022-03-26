@@ -1,5 +1,5 @@
 {% set name = "napari-imaris-loader" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-imaris-loader-{{ version }}.tar.gz
-  sha256: b7b9cd0a4f88109af6b95d3328b1b383bca5f11aac351b297519e40f63d0beba
+  sha256: 453f1701b4c55b567d2ce9a3472d7d9d9c06b15aa2b5034d74878d1aa95e2da8
 
 build:
   noarch: python
