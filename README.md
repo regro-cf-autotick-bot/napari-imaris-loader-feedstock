@@ -5,7 +5,7 @@ Home: https://github.com/AlanMWatson/napari-imaris-loader
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-imaris-loader-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-imaris-loader-feedstock/blob/main/LICENSE.txt)
 
 Summary: Napari plugin for loading Bitplane imaris files '.ims'
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15402&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/napari-imaris-loader-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15402&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/napari-imaris-loader-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -112,8 +112,6 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
-
-<!-- dummy comment -->
 
 Feedstock Maintainers
 =====================
